@@ -1,0 +1,16 @@
+package novo.project.web.cadastrocliente.novo.project.web;
+
+{package novo.project.web.cadastrocliente;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+    @SpringBootApplication
+    class CadastroClienteApplication {
+
+        public static void main(String[] args) {
+            SpringApplication.run(CadastroClienteApplication.class, args);
+        }
+    }
+
+}
